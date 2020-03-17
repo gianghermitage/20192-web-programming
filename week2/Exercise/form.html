@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>A Simple Form</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			body {
+				font-family: Arial;
+			}
+
+			input[type=text], select  {
+				width: 100%;
+				padding: 12px 20px;
+				margin: 8px 0;
+				display: block;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+			}
+
+			input[type=submit] {
+				width: 100%;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				border-radius: 4px;
+				cursor: pointer;
+			}
+
+			div.container {
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<form action="response.php" method="POST">
+				<label>Name</label>
+				<input type="text"  name="name" placeholder="Your name..">
+
+				<label>Student ID</label>
+				<input type="text"  name="sid" placeholder="Your student ID..">
+
+				<label>Class</label>
+				<input type="text" name="class" placeholder="Your class..">
+
+				<label>University</label>
+				<input type="text" name="uni" placeholder="Your university..">
+				<br>
+				<br>
+				<label>What are your hobbies?</label><br><br>
+				<input type="checkbox" name="hobby[]" value="Listening to music">
+				<label> Listening to music</label><br>
+				<input type="checkbox" name="hobby[]" value="Playing games">
+				<label> Playing games</label><br>
+				<input type="checkbox" name="hobby[]" value="Eating">
+				<label> Eating</label><br>
+				<input type="checkbox" name="hobby[]" value="Sleeping">
+				<label> Sleeping</label><br>
+
+				<input type="SUBMIT" name="submit" value="Click to submit">
+			</form>
+		</div>
+	</body>
+</html>
