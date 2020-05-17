@@ -5,7 +5,7 @@
         <name>My location</name>
         <description>home</description>
         <Point>
-            <coordinates>105.854285,21.006828,0</coordinates>
+            <coordinates>21.027179, 105.786047,0</coordinates>
         </Point>
     </Placemark>
 </kml>

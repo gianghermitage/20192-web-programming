@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<pet> 
+    <name>Sammy Snail</name> 
+    <age>4</age> 
+    <species>snail</species> 
+    <parents> 
+        <mother>Sue Snail</mother> 
+        <father>Sid Snail</father> 
+    </parents> 
+</pet>
