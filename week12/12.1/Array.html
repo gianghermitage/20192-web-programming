@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+    <script type="text/javascript">
+        var myArray = new Array();
+        myArray.push("Tim");
+        myArray.push("Janice");
+        myArray.push("Joe");
+
+        document.writeln(myArray.toString());
+        document.writeln("<BR>");
+
+        document.writeln(myArray[1]);
+        document.writeln("<BR>");
+
+        document.writeln("Array Size: " + myArray.length);
+        document.writeln("<BR>");
+
+        var who = myArray.pop();
+        document.writeln("Popped Element: " + who);
+        document.writeln("<BR>");
+
+        document.writeln("Array Size: " + myArray.length);
+        document.writeln("<BR>");
+        document.writeln("<BR>");
+
+        var otherArray = new Array("dog", 3, 8.4);
+
+        document.writeln(otherArray.toString());
+        document.writeln("<BR>");
+        document.writeln("<BR>");
+
+        otherArray["key"] = "value";
+        otherArray.writeln(otherArray["key"]);
+        document.writeln("<BR>");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Function Count</title>
+    <script type="text/javascript">
+        num = 0;
+        function myFunc() {
+            num++;
+            document.myForm.outputField.value = "Called " + num + " times";
+        }
+        window.setInterval("myFunc()", 1000);
+    </script>
+</head>
+
+<body>
+    <form name="myForm">
+        <input type="text" name="outputField" readonly>
+    </form>
+</body>
+
+</html>
